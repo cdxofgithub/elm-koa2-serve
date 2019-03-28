@@ -109,5 +109,8 @@ class User extends AddressComponent {
       message: "获取用户列表成功"
     }
   }
+  async changePassword(ctx) {
+
+  }
 }
 module.exports = new User()
